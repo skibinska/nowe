@@ -22,4 +22,5 @@ $(document).ready(function(){
                 .siblings('dd')
                     .slideUp(200);
     });
+
 });
