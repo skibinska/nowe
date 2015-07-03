@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body {
+    font: 300 16px/22px Helvetica, Arial, sans-serif;
+    border-top: 5px solid #4c4066;
+    background: url('pictures/background-right.jpg') right top no-repeat,
+    url('pictures/background-left.jpg') left no-repeat;
+    background-size: 420px auto, auto 900px;
+    background-attachment: fixed, fixed;
+}
+/*
+  ========================================
+  Main contents
+  ========================================
+*/
+#wrapper {
+    width: 90%;
+    max-width: 1040px;
+    margin: 0 auto;
+    min-width: 900px;
+}
+h1 {
+    margin: 45px 0;
+    font-size: 85px;
+    color: #6f6c7c;
+    text-shadow: 1px 1px 2px #72629a;
+    font-weight: bold;
+}
+#left-bar {
+    width: 25%;
+    min-width: 200px;
+    display: inline-block;
+}
+#left-bar img {
+    width: 100%;
+}
+#container {
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+}
+/*
+  ========================================
+  Pictures
+  ========================================
+*/
+.frame {
+    padding: 5px 15px 15px;
+    background-color: white;
+    margin-bottom: 20px;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#left-bar .frame img {
+    border-top: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    padding: 7px 0;
+}
+.rounded {
+    border-radius: 10px;
+}
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+.references {
+    margin-top: 30px;
+    text-align: center;
+}
+a.btn {
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    background: -webkit-linear-gradient(top, #4e4c80 0%,#9a95d8 100%);
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #4e4c80;
+}
+a.btn:hover {
+    box-shadow: 1px 1px 2px #4e4c80 inset;
+}
+/*
+  ========================================
+  Paragraphs
+  ========================================
+*/
+p.about {
+    font-size: 0.9em;
+    font-style: italic;
+}
+p:not(.about) {
+    line-height: 1.3em;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+h2,
+small{
+    color: #6f6c7c;
+}
+small{
+    font-size:smaller;
+    
+}
+/*
+  ========================================
+  List
+  ========================================
+*/
+.achievements li {
+    padding: 10px 40px;
+    font-size: 0.75em;
+}
+.achievements li:nth-child(odd) {
+    background-color: rgba(176, 175, 192, 0.2);
+}
+.achievements li:last-child{
+    margin-bottom: 20px;
+    
+}

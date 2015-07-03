@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body {
+    font: 14px/24px Helvetica, Arial, sans-serif;
+    border-top: 5px solid #4c4066;
+    margin: 0;
+    padding: 10px 150px;
+    color: #666666;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    clear: both;
+    *zoom: 1;
+}
+/*
+  ========================================
+  Header
+  ========================================
+*/
+header{
+    background-color: #fdfdfc;
+    margin-top: 3px;
+    height: 80px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+}
+.title{  
+    font-size: 2.1em;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.navigation{
+    text-align: center;
+    height: 30px;
+    font-size: 1.2em;
+    padding-top: 10px;
+    vertical-align: middle;
+    background-color: #fdfdfc;
+    border-bottom:1px solid #edecec;
+    margin-bottom: 30px;
+}
+.navigation a{
+    padding-right: 20px;
+    
+}
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+footer{
+    background-color: #fdfdfc;
+    padding-bottom: 24px;
+    padding-top:24px;
+    margin-bottom:20px;
+}
+footer p{
+    font-style: italic;
+}
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+h2, h3, h4 {
+    font-weight: bold;
+    margin: 10px 0;
+}
+h2 {
+    font-size: 1.75em;
+}
+    
+h3{
+    font-size: 1.20em;
+}
+h4{
+    font-size: 0.9em;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 1px dotted #666;
+}
+/*
+  ========================================
+  Pictures CHANGE!!!
+  ========================================
+*/
+img,
+figcaption{
+    width: 230px;
+}
+figcaption{
+    border-bottom: 1px dotted lightskyblue;
+    text-align: center;
+    font-style: italic;
+    font-size:0.8em;
+    position: absolute;
+    line-height: 1.5em;
+}
+.img{
+    display: inline-block;
+    position: relative;
+    margin-right: 1.5%
+
+}
+figure:hover{
+    transform: rotate(20deg);
+}
+/*
+  ========================================
+  Sidebar
+  ========================================
+*/
+.sidebar{
+    background-color: #fdfdfc;
+    border: 1px solid  #edecec;
+    border-radius: 20px;
+    text-align: center;
+    position: fixed;
+    left: 72%;
+    height: 120px;
+    width: 190px;
+    z-index: 99;
+}
+.sidebar li{
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+.sidebar li:first-child{
+    margin-top:15px;
+}
+/*
+  ========================================
+  Main
+  ========================================
+*/
+#women-coded{
+    width: 63%;
+    color: #5b5b5b;
+}
+/*
+  ========================================
+  Media
+  ========================================
+*/
+.media{
+    margin: 40px
+
+}
+video{
+    margin-bottom: 15px;
+    width: 330px;
+}
+
+
