@@ -1,0 +1,11 @@
+article{
+    width: 600px;
+    margin: auto;
+}
+blockquote.co{
+    width: 35%;
+    float: right;
+    font-size: 2em;
+    background-color: #e3e3e3;
+    text-align: center;
+}
